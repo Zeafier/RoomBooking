@@ -1,5 +1,5 @@
 {
-  "name": "vue-3",
+  "name": "room-booking-system",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,13 +24,20 @@
     "env": {
       "node": true
     },
-    "extends": ["plugin:vue/vue3-essential", "eslint:recommended"],
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
     "parserOptions": {
       "parser": "babel-eslint"
     },
     "rules": {}
   },
-  "browserslist": ["> 1%", "last 2 versions", "not dead"],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
   "keywords": [],
-  "description": ""
+  "description": "System for room booking"
 }

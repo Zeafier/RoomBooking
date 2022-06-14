@@ -157,6 +157,10 @@ button[type="submit"]:hover:not(button[type="submit"]:disabled) {
   color: white;
 }
 
+button[type="submit"]:disabled {
+  cursor: unset;
+}
+
 form {
   margin: 20px 0;
 }
